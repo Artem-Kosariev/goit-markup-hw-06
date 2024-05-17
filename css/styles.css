@@ -140,6 +140,7 @@ ol {
   background-color: #fff;
 }
 .modal-close-icon {
+  fill: #2f2f37;
 }
 
 @media screen and (min-width: 768px) {
@@ -305,7 +306,7 @@ ol {
 .hero-button:focus {
   background-color: #404bbf;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero-page {
     margin-right: auto;
     background-image: linear-gradient(
@@ -315,7 +316,7 @@ ol {
       url(../images/Dark-bg-phone-2x.jpg);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
   .hero-page {
     max-width: 768px;
     background-image: linear-gradient(
@@ -339,7 +340,7 @@ ol {
     background-color: #404bbf;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1157px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero-page {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
