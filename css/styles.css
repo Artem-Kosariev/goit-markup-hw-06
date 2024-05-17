@@ -482,6 +482,9 @@ ol {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social-link-icon {
+  fill: #fff;
+}
 .social-link:hover {
   background-color: #404bbf;
 }
@@ -973,6 +976,9 @@ ol {
 .review-form-checkbox-wraper {
   margin-bottom: 24px;
 }
+.review-form-checkbox-label {
+  display: flex;
+}
 .review-form-checkbox {
   margin-right: 8px;
 }
@@ -1040,7 +1046,7 @@ ol {
 .send:focus {
   background-color: #404bbf;
 }
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) {
   .modal {
     width: 408px;
     min-height: 584px;
@@ -1116,9 +1122,19 @@ ol {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
+  margin-bottom: 168px;
 }
 .nav-list-menu-link {
   display: block;
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+}
+.nav-list-menu-link-studio {
+  color: #404bbf;
 }
 .adress-menu {
   margin-bottom: 40px;
@@ -1132,11 +1148,20 @@ ol {
   display: flex;
 }
 .address-link-menu {
+  color: #434455;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.address-link-menu-mail {
+  color: #4d5ae5;
 }
 .menu-social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 40px;
 }
 .menu-social-media {
 }
