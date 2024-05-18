@@ -142,6 +142,14 @@ ol {
 .modal-close-icon {
   fill: #2f2f37;
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
 
 @media screen and (min-width: 768px) {
   .heder-container {
@@ -174,10 +182,6 @@ ol {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .nav-link:hover,
-  .nav-link:focus {
-    color: #404bbf;
   }
   .nav-link-main {
     position: relative;
@@ -216,10 +220,7 @@ ol {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .address-link:hover,
-  .address-link:focus {
-    color: #404bbf;
-  }
+
   .menu-button {
     display: none;
   }
@@ -303,6 +304,7 @@ ol {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.hero-button:focus,
 .hero-button:focus {
   background-color: #404bbf;
 }
@@ -335,9 +337,6 @@ ol {
     font-size: 56px;
   }
   .hero-button {
-  }
-  .hero-button:focus {
-    background-color: #404bbf;
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -486,7 +485,8 @@ ol {
 .social-link-icon {
   fill: #fff;
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: #404bbf;
 }
 @media screen and (min-width: 768px) {
@@ -513,9 +513,6 @@ ol {
   }
   .team-card {
     width: calc((100%-72px) / 4);
-  }
-  .social-link:focus {
-    background-color: #404bbf;
   }
 }
 
@@ -710,6 +707,14 @@ ol {
   fill: #fff;
   margin-left: 16px;
 }
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
+}
 @media screen and (min-width: 768px) {
   .footer-container {
     flex-direction: row;
@@ -776,10 +781,6 @@ ol {
     margin-bottom: 0;
   }
 
-  .footer-social-link:hover,
-  .footer-social-link:focus {
-    background-color: #31d0aa;
-  }
   .subscribe {
   }
 
@@ -811,10 +812,6 @@ ol {
   .subscribe-button-icon {
     fill: #fff;
     margin-left: 16px;
-  }
-  .subscribe-button:hover,
-  .subscribe-button:focus {
-    background-color: #404bbf;
   }
 }
 
