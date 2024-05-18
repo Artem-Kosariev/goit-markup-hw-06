@@ -395,11 +395,7 @@ ol {
   gap: 72px;
 }
 .section-second-description {
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -416,11 +412,14 @@ ol {
 @media screen and (min-width: 1158px) {
   .section-second-subtitle {
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
   }
+  .section-second-description {
+    font-weight: 400;
+  }
+
   .item-link {
     width: calc((100% - 72px) / 4);
   }
@@ -605,10 +604,6 @@ ol {
   flex-direction: column;
   row-gap: 72px;
 }
-.logo-down-description {
-}
-.logo {
-}
 .logo-down {
   margin-bottom: 16px;
   text-align: center;
@@ -617,8 +612,7 @@ ol {
 .whitelogo {
   color: #f4f4fd;
 }
-.description {
-}
+
 .down-description {
   color: #f4f4fd;
 }
